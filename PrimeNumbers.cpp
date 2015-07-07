@@ -29,7 +29,7 @@ bool isPrime(int n) {
 	}
 	return true;
 }
-bool isPrime(int n) {
+bool isPrime2(int n) {
     for(int i=2;i<=(sqrt(n));i++){
         if(n%i == 0) return true;
     }
