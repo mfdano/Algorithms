@@ -3,8 +3,8 @@ using namespace std;
 int gcd(int,int);
 int lcm(int,int);
 int main() {
-	printf("%d\n",gcd(60,20));
-	printf("%d\n",lcm(25,60));
+    printf("%d\n",gcd(60,20));
+    printf("%d\n",lcm(25,60));
     return 0;
 }
 int gcd(int a,int b) {
