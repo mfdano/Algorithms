@@ -1,3 +1,4 @@
+O (n Log n)
 #include <cstdio>
 #include <queue>
 using namespace std;
