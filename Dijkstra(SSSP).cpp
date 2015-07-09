@@ -24,12 +24,12 @@ int main(){
         	int u = front.second;
         	if(d == distance[u]) {
         		for(int  i=0;i<graph[u].size();i++) {
-	            		ii v = graph[u][i];
-	            		if(distance[u]+v.second< distance[v.first]) {
-	                		distance[v.first] = distance[u]+v.second;
-	                		pq.push(ii(distance[v.first],v.first));
-	            		}
-	       	        }
+	            	ii v = graph[u][i];
+	            	if(distance[u]+v.second< distance[v.first]) {
+	               		distance[v.first] = distance[u]+v.second;
+	               		pq.push(ii(distance[v.first],v.first));
+	           		}
+	            }
         	}
     	}
     	for (int i=1;i<=V;i++) printf("%d -> %d : %d\n",init,i,distance[i]);
