@@ -1,3 +1,4 @@
+// O(V + E)
 #include <cstdio>
 #include <cstring>
 #include <vector>
