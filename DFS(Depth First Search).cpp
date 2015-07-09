@@ -24,7 +24,6 @@ int main() {
             components++;
         }
     }
-    for(int i=1;i<=i;i++) printf("%d ",visited[i]);
     printf("\nComponents: %d\n",components);
     return 0;
 }
